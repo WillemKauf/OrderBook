@@ -64,4 +64,4 @@ The following operations are supported:
 * Get top of book/perform trades (Buy/Sell): `O(1)`.
   * We can use our TOB iterators to index through available buy/sells, and execute the trade if we are able.
 * Cancel an order: `O(1) -> O(n)`
-* We get a pointer from a hash map given `userOrderId` as a key to the doubly linked list that contains the order, and delete it from the doubly linked list. This is once again constant time, bar any collisions in the hash map.
+  * We get a pointer from a hash map given `orderId` as a key to the doubly linked list that contains the order, and delete it from the doubly linked list. This is once again constant time, bar any collisions in the hash map.
