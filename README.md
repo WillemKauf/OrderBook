@@ -4,7 +4,7 @@ This is a program which accepts orders and cancellations over UDP port `8888`, m
 
 # Input/Output Data
 
-This is redacted for confidentality reasons. Input files should be of the form
+No input or output data provided. Input files should be of the form
 
 ```
 #Scenario
